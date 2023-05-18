@@ -1,0 +1,55 @@
+ /* nav > a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color:rgb(255, 255, 255) ;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition:0.5s ease-in-out;
+
+ }
+
+ nav > a:hover::after{
+    width: 100%;
+   
+ } */
+
+
+ * .cards > a{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 197, 8);
+    border-radius: 20px;
+    font-size: 20px;
+} */
+/* .bnt{
+  display: block;  
+  text-decoration: none;
+    
+  font-size: 18px;
+  font-weight: bold;
+  color: aliceblue;
+
+  margin: 0px 15px;
+  padding: 10px 15px;
+
+  border: 2px solid #5fe36a;
+  position: relative;
+} */
+
+/* .bnt::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #5fe36a;
+    z-index: -1;
+    transition: .7s;
+} */
