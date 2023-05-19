@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 body{
 font-family: Arial, Helvetica, sans-serif;
@@ -128,7 +129,7 @@ hr{
 }
 #erro{
     position:relative ;
-    left: 5%;
+    left: 2%;
 }
 #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
@@ -200,30 +201,88 @@ footer{
     display: flex;
     justify-content: center;
     padding: 5px;
+    width: 100vw;
 }
-@media screen and (max-width: 1367px){
-    #prin{
-        display: flex;
+/* @media screen and (min-width: 1366px) and (max-width: 1680px) {
+  } */
+
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    #central{
+        width: 500px;
+        font-size: 30px;
+        margin-top: 30px;
+      margin-right: 5%;
+        position: relative;
+        right: 0%;
         
-        align-items: center;
+    
     }
-   #img{
-       width: 400px;
-       height: 400px;
-       margin-left: 0%;
- 
-   }
+    
+    #central > h2{
+        color: rgb(175, 100, 8);
+        padding: 10px;
+        letter-spacing: 3px;
+        font-size:60px;
+    }
+    
+    #central > p{
+        font-size: 30px;
+    }
+
+    #img{
+        width: 400px;
+         height: 400px;
+         margin-left: 10%;
+        
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 1024px) {
+   /* #prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
    #central{
-    width: 520px;
-     font-size: 25px;
-    margin-top: 30px;
-    margin-right: 2px;
-    position: relative;
-     left: 2px;
-}
-.cards{
     width: 400px;
-    height: 600px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 8px;
+  margin-right: 1%;
+    position: relative;
+    right: 0%;
+    
+
+}
+
+#central > h2{
+    color: rgb(175, 100, 8);
+    padding: 10px;
+    letter-spacing: 3px;
+    font-size:55px;
+}
+
+#central > p{
+    font-size: 30px;
+}
+#img{
+    width: 400px;
+     height: 400px;
+     margin-left: 4%;
+    
+}
+
+#card01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .cards{
+    width: 350px;
+    height: 550px;
     font-size: 20px;
     background-color: rgba(202, 199, 199, 0.637);
     margin-right: 10px;
@@ -236,468 +295,175 @@ footer{
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
     border-radius: 20px;
 }
-.cards > h2{
-    padding: 20px;
-    letter-spacing: 3px;
-}
 
-.cards > p{
-    padding: 20px;
-    
+.imgs{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
-.cards > img{
-    padding: 30px;
-    
-}
- .cards > a{
-    margin-top: 10px;
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    background-color: rgb(8, 197, 8);
-    border-radius: 20px;
-    font-size: 17px;
-    font-weight: bold;
-} 
-.cards > a:hover{
-    background-color: #ac5e00a6;
-}
-}
+  }
 
-@media screen and (max-width: 1366px){
-    #central{
-        width: 520px;
-         font-size: 25px;
-        margin-top: 30px;
-        margin-right: 4%;
-        position: relative;
-         left: 1px; 
-    }
-    .cards{
-        width: 400px;
-        height: 600px;
-        font-size: 20px;
-        background-color: rgba(202, 199, 199, 0.637);
-        margin-right: 10px;
-        margin: 30px;
-        align-items: center;
+  @media screen and (max-width: 800px) {
+    #prin{
+        display: flex;
         flex-direction: column;
-    
+        align-items: center;
         text-align: center;
-        padding: 20px;
-        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-        border-radius: 20px;
-    }
-    .cards > h2{
-        padding: 20px;
-        letter-spacing: 3px;
-    }
-    
-    .cards > p{
-        padding: 20px;
-        
-    }
-    .cards > img{
-        padding: 30px;
-        
-    }
-     .cards > a{
-        margin-top: 10px;
-        text-decoration: none;
-        padding: 10px;
-        color: white;
-        background-color: rgb(8, 197, 8);
-        border-radius: 20px;
-        font-size: 17px;
-        font-weight: bold;
-    } 
-    .cards > a:hover{
-        background-color: #ac5e00a6;
-    }
-}
- @media screen and (max-width: 1020px){
-    #img{
-        width: 400px;
-        height: 400px;
-  
     }
     #central{
         width: 500px;
-         font-size: 25px;
+        font-size: 30px;
         margin-top: 30px;
-        margin-right: 4%;
+      margin-right: 2%;
         position: relative;
-         left: 1px;
-       
+        right: 0%;
         
     
     }
+    
     #central > h2{
         color: rgb(175, 100, 8);
         padding: 10px;
         letter-spacing: 3px;
-        font-size:50px;
+        font-size:55px;
+    }
+    
+    #central > p{
+        font-size: 30px;
+    }
+    #img{
+        width: 400px;
+         height: 400px;
+         margin-left: 4%;
+        
+    }
+    hr{
+        position: relative;
+       top: 10vw; 
+       width: 400px;
+       margin: auto;
+   }
+   #parallax{
+    background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 110vw;
+    height: 50vw;
+    margin-left: 0px;
+    
+}
+
+   #card01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .cards{
+    width: 300px;
+    height: 500px;
+    font-size: 20px;
+    background-color: rgba(202, 199, 199, 0.637);
+    margin-right: 10px;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
+    border-radius: 20px;
+}
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+  }
+
+  @media screen and  (max-width: 667px) {
+    #prin{
+       margin: auto;
+    }
+    #central{
+        width: 400px;
+        font-size: 30px;
+        margin-top: 30px;
+      margin-right: 2%;
+        position: relative;
+        right: 0%;
+        
+    
+    }
+
+    #central > h2{
+        color: rgb(175, 100, 8);
+        padding: 10px;
+        letter-spacing: 3px;
+        font-size:40px;
     }
     
     #central > p{
         font-size: 25px;
     }
-    #erro{
-        position:relative ;
-        left: 1%;
-    }
-    /* .bnt2{
-        margin-top: 10px;
-    } */
+  }
 
-    .cards{
-        width: 400px;
-        height: 600px;
-        font-size: 20px;
-        background-color: rgba(202, 199, 199, 0.637);
-        margin-right: 10px;
-        margin: 30px;
-        align-items: center;
-        flex-direction: column;
-    
-        text-align: center;
-        padding: 20px;
-        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-        border-radius: 20px;
-    }
-    .cards > h2{
-        padding: 20px;
-        letter-spacing: 3px;
-    }
-    
-    .cards > p{
-        padding: 20px;
-        
-    }
-    .cards > img{
-        padding: 30px;
-        
-    }
-     .cards > a{
-        margin-top: 10px;
-        text-decoration: none;
-        padding: 10px;
-        color: white;
-        background-color: rgb(8, 197, 8);
-        border-radius: 20px;
-        font-size: 17px;
-        font-weight: bold;
-    } 
-    .cards > a:hover{
-        background-color: #ac5e00a6;
-    }
-
-} 
-@media screen and (max-width: 936px){
-    #card01{
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-    }
-     /* .cards{
-        width: 400px;
-        height: 600px;
-        font-size: 20px;
-        background-color: rgba(202, 199, 199, 0.637);
-        
-        margin: 30px;
-        text-align: center;
-        padding: 20px;
-        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-        border-radius: 20px;
-    }
-    .cards > h2{
-        padding: 10px;
-        margin: 10px;
-        letter-spacing: 3px;
-    }
-    
-    .cards > p{
-        padding: 20px;
-        
-    }
-    .cards > img{
-        padding: 30px;
-        
-    }
-    .cards > a{
-        margin-top: 10px;
-        text-decoration: none;
-        padding: 10px;
-        color: white;
-        background-color: rgb(8, 197, 8);
-        border-radius: 20px;
-        font-size: 20px;
-    }  */
-
-    .cards{
-        width: 400px;
-        height: 600px;
-        font-size: 20px;
-        background-color: rgba(202, 199, 199, 0.637);
-        margin-right: 10px;
-        margin: 30px;
-        align-items: center;
-        flex-direction: column;
-    
-        text-align: center;
-        padding: 20px;
-        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-        border-radius: 20px;
-    }
-    .cards > h2{
-        padding: 20px;
-        letter-spacing: 3px;
-    }
-    
-    .cards > p{
-        padding: 20px;
-        
-    }
-    .cards > img{
-        padding: 30px;
-        
-    }
-     .cards > a{
-        margin-top: 10px;
-        text-decoration: none;
-        padding: 10px;
-        color: white;
-        background-color: rgb(8, 197, 8);
-        border-radius: 20px;
-        font-size: 17px;
-        font-weight: bold;
-    } 
-    .cards > a:hover{
-        background-color: #ac5e00a6;
-    }
-}
-
-
-@media screen and (max-width: 728px){
+  @media screen and (max-width: 480px) {
+    /* Estilos para celulares com largura muito pequena */
     #prin{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin: auto;
+        margin-left: 2%;
+     }
+     #central{
+         width: 300px;
+         font-size: 30px;
+         margin-top: 30px;
+       margin-right: 1%;
+         position: relative;
+         right: 0%;
+     }
+     #central > h2{
+        color: rgb(175, 100, 8);
+        padding: 10px;
+        letter-spacing: 3px;
+        font-size:40px;
     }
-   #img{
-       width: 400px;
-       height: 400px;
-       margin-left: 1%;
- 
-   }
-   #central{
-       width: 450px;
+    
+    #central > p{
         font-size: 25px;
-       margin-top: 30px;
-       margin-right: 2px;
-       margin-bottom: 15px;
-       position: relative;
-        left: 10px;
+    }
+    #img{
+        width: 300px;
+         height:300px;
+         margin-left: 4%;
         
-   }
-   #central > h2{
-       color: rgb(175, 100, 8);
-       padding: 10px;
-       letter-spacing: 3px;
-       font-size:55px;
-   }
-   
-   #central > p{
-       font-size: 25px;
-       width: 400px;
-       padding: 10px;
-      
-   }
-   #erro{
-       position:relative ;
-       left: 1%;
+    }
+
+    hr{
+        position: relative;
+       top: 10vw; 
+       width: 200px;
+       margin: auto;
    }
 
-   hr{
-    position: relative;
-   top: 10vw; 
-   width: 300px;
-   margin: auto;
-}
-
-.imgs{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
-#card01{
+   #card01{
     margin: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
    
-}
-/* .cards{
-    width: 420px;
-    height: 600px;
-    font-size: 20px;
-    background-color: rgba(202, 199, 199, 0.637);
-    margin: 30px;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-    border-radius: 20px;
-}
-.cards > h2{
-    padding: 10px;
-    letter-spacing: 3px;
-}
-
-.cards > p{
-    padding: 20px;
-    
-}
-.cards > img{
-    padding: 30px;
-    
-}
-.cards > a{
-    margin-top: 10px;
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    background-color: rgb(8, 197, 8);
-    border-radius: 20px;
-    font-size: 20px;
-} */
-.cards{
-    width: 400px;
-    height: 600px;
-    font-size: 20px;
-    background-color: rgba(202, 199, 199, 0.637);
-    margin-right: 10px;
-    margin: 30px;
-    align-items: center;
-    flex-direction: column;
-
-    text-align: center;
-    padding: 20px;
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.226);
-    border-radius: 20px;
-}
-.cards > h2{
-    padding: 20px;
-    letter-spacing: 3px;
-}
-
-.cards > p{
-    padding: 20px;
-    
-}
-.cards > img{
-    padding: 30px;
-    
-}
- .cards > a{
-    margin-top: 10px;
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    background-color: rgb(8, 197, 8);
-    border-radius: 20px;
-    font-size: 17px;
-    font-weight: bold;
-} 
-.cards > a:hover{
-    background-color: #ac5e00a6;
-}
-} 
-
-@media screen and (max-width: 375px){
-    header{
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: #995604;
-        color: aliceblue;
-        width: 100vw;
-    
-        }
-    #prin{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   #img{
-       width: 310px;
-       height: 310px;
-       margin-right: 20px;
-       align-items:center ;
- 
-   }
-   #central{
-       width: 320px;
-        font-size: 25px;
-       margin-top: 30px;
-       margin-right: 2px;
-       margin-bottom: 15px;
-       position: relative;
-        left: 20px;
-        
-   }
-   #central > h2{
-       color: rgb(175, 100, 8);
-       padding: 10px;
-       letter-spacing: 3px;
-       font-size:54px;
-   }
-   
-   #central > p{
-       font-size: 25px;
-       width: 250px;
-       padding: 10px;
-      
-   }
-   #central02{
-    position: relative;
-    left: 2%;
-   }
-   #erro{
-       position:relative ;
-       left: 1%;
-   }
-
-   hr{
-    position: relative;
-   top: 10vw; 
-   width: 200px;
-   margin: auto;
 }
 #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    width: 120vw;
+    width: 106vw;
     height: 50vw;
     margin-left: 0px;
     
-}
-.imgs{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-}
-#card01{
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
 }
 
 .cards{
@@ -739,7 +505,10 @@ footer{
     font-size: 17px;
     font-weight: bold;
 } 
-.cards > a:hover{
-    background-color: #ac5e00a6;
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
-}
+  }
