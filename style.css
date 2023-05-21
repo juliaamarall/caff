@@ -249,7 +249,7 @@ footer{
     width: 400px;
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 8px;
+    margin-left: 15px;
   margin-right: 1%;
     position: relative;
     right: 0%;
@@ -347,7 +347,6 @@ footer{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
     background-position: right center;
     background-size: cover;
-    background-attachment: fixed;
     width: 110vw;
     height: 50vw;
     margin-left: 0px;
@@ -459,7 +458,6 @@ footer{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
     background-position: right center;
     background-size: cover;
-    background-attachment: fixed;
     width: 106vw;
     height: 50vw;
     margin-left: 0px;
@@ -468,7 +466,7 @@ footer{
 
 .cards{
     width: 250px;
-    height: 450px;
+    height: 490px;
     font-size: 18px;
     background-color: rgba(202, 199, 199, 0.637);
     margin-right: 10px;
