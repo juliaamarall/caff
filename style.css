@@ -273,6 +273,15 @@ footer{
      margin-left: 4%;
     
 }
+#parallax{
+    background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
+    background-position: left center;
+    background-size: cover;
+    width: 110vw;
+    height: 50vw;
+    margin-left: 0px;
+    
+}
 
 #card01{
     display: flex;
@@ -345,7 +354,7 @@ footer{
    }
    #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
-    background-position: right center;
+    background-position: left center;
     background-size: cover;
     width: 110vw;
     height: 50vw;
@@ -456,7 +465,7 @@ footer{
 }
 #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
-    background-position: right center;
+    background-position:left center;
     background-size: cover;
     width: 106vw;
     height: 50vw;
