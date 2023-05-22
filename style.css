@@ -266,6 +266,7 @@ footer{
 
 #central > p{
     font-size: 30px;
+    color: red;
 }
 #img{
     width: 400px;
@@ -339,6 +340,7 @@ footer{
     
     #central > p{
         font-size: 30px;
+        color: red;
     }
     #img{
         width: 400px;
@@ -415,6 +417,7 @@ footer{
     
     #central > p{
         font-size: 25px;
+        color: red;
     }
   }
 
@@ -441,6 +444,7 @@ footer{
     
     #central > p{
         font-size: 25px;
+        color: red;
     }
     #img{
         width: 300px;
@@ -454,6 +458,7 @@ footer{
        top: 10vw; 
        width: 200px;
        margin: auto;
+       
    }
 
    #card01{
