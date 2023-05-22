@@ -266,7 +266,6 @@ footer{
 
 #central > p{
     font-size: 30px;
-    color: red;
 }
 #img{
     width: 400px;
@@ -276,7 +275,7 @@ footer{
 }
 #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
-    background-position: left center;
+    background-position:left bottom;
     background-size: cover;
     width: 110vw;
     height: 50vw;
@@ -340,7 +339,7 @@ footer{
     
     #central > p{
         font-size: 30px;
-        color: red;
+        
     }
     #img{
         width: 400px;
@@ -356,7 +355,7 @@ footer{
    }
    #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
-    background-position: left center;
+    background-position:left bottom;
     background-size: cover;
     width: 110vw;
     height: 50vw;
@@ -417,8 +416,17 @@ footer{
     
     #central > p{
         font-size: 25px;
-        color: red;
+
     }
+    /* #parallax{
+        background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
+        background-position:left bottom;
+        background-size: cover;
+        width: 106vw;
+        height: 50vw;
+        margin-left: 0px;
+        
+    } */
   }
 
   @media screen and (max-width: 480px) {
@@ -444,7 +452,6 @@ footer{
     
     #central > p{
         font-size: 25px;
-        color: red;
     }
     #img{
         width: 300px;
@@ -470,7 +477,7 @@ footer{
 }
 #parallax{
     background-image: url(imgs/pexels-marta-dzedyshko-2067628.jpg);
-    background-position:left center;
+    background-position:left bottom;
     background-size: cover;
     width: 106vw;
     height: 50vw;
